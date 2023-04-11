@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -18,7 +19,7 @@
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.html" id="recent_page">About</a></li>
                         <li><a href="buildings.html">Top 20</a></li>
                         <li><a href="events.html">Events</a></li>
                         <li><a href="media.html">Media</a></li>
@@ -35,7 +36,7 @@
         <!-- <h1>About Canberra Modern</h1> -->
         <section id="about_CM" class="">
             <div class="hero_container">
-                <div><img src="assets/images/CM-Logo.png"></div>
+                <img src="assets/images/CM-Logo.png">
                 <div> 
                     <h1>Canberra Modern</h1>
                     <p>Canberra Modern is an annual program of events showcasing Canberra’s unique mid and late twentieth century places and spaces.</p>
@@ -44,8 +45,9 @@
                 </div>
             </div>   
         </section>
-        <section id="about_us" class="inner">
+        <section id="about_us">
             <h2>About Us</h2>
+            <div class="line"></div>
             <section>
                 <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/fddd9995-170d-4cce-a82a-e7057a668372.png/:/cr=t:0%25,l:0%25,w:87.33%25,h:100%25/rs=w:365,h:365,cg:true">
                 <div>
@@ -58,6 +60,7 @@
                 </div>
             </section>
             <section>
+                <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/Canberra%20Modernist%20Dinner%202019%20WEB-5.jpg/:/cr=t:0%25,l:24.03%25,w:56.48%25,h:84.75%25/rs=w:365,h:365,cg:true,m">
                 <div>
                     <h3>Who are Canberra Modern?</h3>
                     <p>Canberra Modern is a passionate team of heritage and design practitioners who have a genuine love for the city in which they live. 
@@ -65,7 +68,6 @@
                         <br><br>Amy Jarvis is a heritage management and interpretation specialist who works at ACT Historic Places. Amy was awarded a Churchill Fellowship in 2018/9 to investigate advocacy and engagement models around mid-century architecture in the USA. 
                         <br><br> Rachel Jackson is an interior designer and heritage management expert who is Principal at GML Heritage. Rachel is a specialist in cultural landscape assessment and in heritage and sustainability. Rachel is a 2022/23 Getty Conservation Institute Scholar.</p>
                 </div>
-                <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/Canberra%20Modernist%20Dinner%202019%20WEB-5.jpg/:/cr=t:0%25,l:24.03%25,w:56.48%25,h:84.75%25/rs=w:365,h:365,cg:true,m">
             </section>
             <section>
                 <img src="https://isteam.wsimg.com/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/78fa3853-d045-4fd5-b95f-d4e4f6b9c63d.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365">
@@ -80,6 +82,7 @@
         </section>
          <section id="our_partners">
             <h2>Our Partners</h2>
+            <div class="line"></div>
             <div class="p_container">
                 <section>
                     <a href="http://unihouse.anu.edu.au/"><h3>University House</h3></a>
@@ -137,7 +140,40 @@
     </main>
 
     <footer>
-
+        <div class="container">
+            <div class="SIT">
+                <div class="contact-form">
+                    <h3>STAY IN TOUCH</h3>
+                    <form>
+                        <input type="email" id="email" placeholder="E-mail" required>
+                        <input type="submit" id="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="buildings.html">Top 20</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="media.html">Media</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="links">
+                <nav>
+                    <ul>
+                        <li><a href="https://www.facebook.com/canberramodern/"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/canberra_modern/"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="bottom">
+            <h1>CANBERRA MODERN</h1>
+            <p>© 2017 Canberra Modern</p>            
+        </div>
     </footer>
 </body>
 </html>

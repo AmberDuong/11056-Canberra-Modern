@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -20,7 +21,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="buildings.html">Top 20</a></li>
-                        <li><a href="events.html">Events</a></li>
+                        <li><a href="events.html" id="recent_page">Events</a></li>
                         <li><a href="media.html">Media</a></li>
                     </ul>
                 </nav>
@@ -32,87 +33,97 @@
     </header>
     <main>
         <section id="event_hero">
-            <h1>Events</h1>
+            <h1 id="CM">Events</h1>
             <div>
                 <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/19565286-6d90-4e57-a79c-5e0a249ef5c9.jpg/:/rs=w:1280,h:854">                
             </div>
         </section>
-        <!-- <section class="divider">
-            <h2>RECENT EVENTS</h2>
-        </section> -->
+
         <section id="e_recent">
             <h2>CANBERRA MODERN in the Canberra and Region Heritage Festival</h2>
             <div class="recent">
                 <div>
                     <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/models1.jpg/:/cr=t:16.74%25,l:0%25,w:100%25,h:66.51%25/rs=w:776,h:388,cg:true">
-                    <h3>Model Modern: Iconic Design at Miniature Scale<br>
-                        Exhibition<br>
-                        15, 22, 23 and 29 April 2023, 11.00am and 2.00pm
-                    </h3>
-                    <span id="dots">...</span>
-                    <span id="more">
-                        <p>
-                            Canberra Modern and Manning Clark House present an exhibition of intricately crafted architectural models of iconic modernist buildings.<br><br>
-                            Created at a 1:10 scale by California native David Webb, these models include unforgettable places like Frank Lloyd Wright’s Fallingwater, and local icons such as Harry Seidler’s Bowden House in Deakin.<br><br>
-                            This event is made possible by The Mill: Architecture & Design
-                        </p>
-                    </span>                    
-                    <button onclick="myFunction()" id="myBtn">Read more</button>
-
+                    <section class="r_title">
+                        <h3>Model Modern: Iconic Design at Miniature Scale</h3>
+                        <h5>Exhibition</h5>
+                        <h4>15, 22, 23 and 29 April 2023, 11.00am and 2.00pm</h4>
+                    </section>
+                    <p>
+                        Canberra Modern and Manning Clark House present an exhibition of intricately crafted architectural models of iconic modernist buildings.<br><br>
+                        Created at a 1:10 scale by California native David Webb, these models include unforgettable places like Frank Lloyd Wright’s Fallingwater, and local icons such as Harry Seidler’s Bowden House in Deakin.<br><br>
+                        This event is made possible by The Mill: Architecture & Design
+                    </p>
                     <button>Book now</button>
                 </div>
                 <div>
                     <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/2b1995ba-73b6-4078-821b-6b3e9dde8161.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:776,h:388,cg:true">
-                    <h3>Growing up Modern at Canberra's Round House with Roger Benjamin 
+                    <section class="r_title">
+                        <h3>Growing up Modern at Canberra's Round House with Roger Benjamin</h3>
+                        <h4>Thursday 13 April 2023, 5.00pm - 7.00pm</h4>
+                    </section>
 
-                        Thursday 13 April 2023, 5.00pm - 7.00pm</h3>
-                    <p></p>
+                    <p>
+                        Join Roger Benjamin for a tour of his childhood home, Canberra’s Round House and a talk about its Czech architect, Alex Jelinek, who designed the house for his parents Bruce and Audrey Benjamin in 1956.<br><br>
+                        Roger will draw from his recent book Growing Up Modern: Canberra’s Round House and Jelinek.
+                    </p>
+
                     <button>Book now</button>
                 </div>
                 <div>
                     <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/bowden%20house.jpeg/:/cr=t:8.41%25,l:0%25,w:100%25,h:83.17%25/rs=w:776,h:388,cg:true">
-                    <h3>Model Modern - Iconic Design at a Miniature Scale
+                    <section class="r_title">
+                        <h3>Model Modern - Iconic Design at a Miniature Scale</h3>
+                        <h5>Exhibition Launch and Panel Discussion</h5> 
+                        <h4>Friday 14 April 2023, 5.30pm-7.30pm</h4>
+                    </section>
+                        <p>
+                            Join us for the launch of Model Modern: Iconic Design at a Miniature Scale, an exhibition of intricate architectural models of iconic modernist buildings by David Webb.<br><br>
+                            David will share his experiences in making these models and his work at Palm Springs Modernism Week before we launch into an interactive panel discussion on communicating architecture to the public.<br><br>
+                            Refreshments provided.
+                        </p>
 
-                        Exhibition Launch and Panel Discussion 
-                        
-                        Friday 14 April 2023, 5.30pm-7.30pm</h3>
-                    <p></p>
                     <button>Book now</button>
                 </div>
                 <div>
                     <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/539b690f-7a8d-4e55-8362-bea0699ab65b.jpg/:/rs=w:388,h:194,cg:true,m/cr=w:388,h:194">
-                    <h3>Manning Clark House Tours 
+                    <section class="r_title">
+                        <h3>Manning Clark House Tours</h3> 
+                        <h5>Guided Tours</h5> 
+                        <h4>15, 22, 23 and 29 April 2023 11.00am and 2.00pm</h4>
+                    </section>
+                        <p>
+                            A rare opportunity to visit the former home of Professor Manning Clark and his wife Dymphna and their family. See where the six volume history of Australia was written and where many eminent Australians dined and met.
+                        </p>
 
-                        Guided Tours 
-                        
-                        15, 22, 23 and 29 April 2023
-                        
-                        11.00am and 2.00pm</h3>
-                    <p></p>
                     <button>Book now</button>
                 </div>
                 <div>
                     <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/margo.jpg/:/cr=t:8.33%25,l:0%25,w:100%25,h:83.33%25/rs=w:388,h:194,cg:true">
-                    <h3>Interior Design, Architecture and Client Collaboration: Margo Lewers and Sydney Ancher, 1930-1965 
+                    <section class="r_title">
+                        <h3>Interior Design, Architecture and Client Collaboration: Margo Lewers and Sydney Ancher, 1930-1965</h3>
+                        <h4>Saturday 15 April 2023, 3.00pm-5.00pm </h4>
+                    </section>
+                    <p>
+                        Join curator and design historian Dr Catriona Quinn and architect Glenn Harper for a talk exploring the creative collaborations between interior designer and modernist artist Margo Lewers and pioneer modernist architect Sydney Ancher in the 1950s and 60s.<br><br>
+                        The talk will look at Sydney collaborations, as well as Canberra connections such as Lewers’ Rex Hotel mosaic mural and Ancher’s architecture.
+                    </p>
 
-                        Saturday 15 April 2023, 3.00pm-5.00pm 
-                        
-                        </h3>
-                    <p></p>
                     <button>Book now</button>
                 </div>
                 <div>
                     <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/models.jpg/:/rs=w:776,h:388,cg:true,m/cr=w:776,h:388">
-                    <h3>Model Modern: Iconic Design at a Miniature Scale 
+                    <section class="r_title">
+                        <h3>Model Modern: Iconic Design at a Miniature Scale</h3>
+                        <h5>Kids Model Building Workshop </h5> 
+                        <h4>Sunday 16 April 2023, 10.00am-12.00pm</h4>
+                    </section> 
+                        <p>
+                            Taking inspiration from the scale models in the Model Modern: Iconic Design at a Miniature Scale exhibition, kids can enjoy a model building workshop with artist David Webb.<br><br>
+                            Using recycled materials, David will guide participants through the process of model making with kids able to take home their masterpieces.<br><br>
+                            Materials provided, limited spaces. Ideally suited for children over 5.
+                        </p>
 
-                        Kids Model Building Workshop 
-                        
-                        Sunday 16 April 2023, 10.00am-12.00pm </h3>
-                    <p>
-                        Taking inspiration from the scale models in the Model Modern: Iconic Design at a Miniature Scale exhibition, kids can enjoy a model building workshop with artist David Webb.<br><br>
-                        Using recycled materials, David will guide participants through the process of model making with kids able to take home their masterpieces.<br><br>
-                        Materials provided, limited spaces. Ideally suited for children over 5.
-                    </p>
                     <button>Book now</button>
                 </div>        
             </div>
@@ -126,17 +137,81 @@
             <h2>2022</h2>
             <div class="e_element">
                 <div>
-                    <img src="">
-                    <h3>
-                    </h3>
-                    <span id="dots">...</span>
-                    <span id="more">
-                        <p>
-                        </p>
-                    </span>                    
-                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                    <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/blob-0003.png/:/cr=t:2.83%25,l:2.83%25,w:94.34%25,h:94.34%25/rs=w:600,h:300,cg:true,m">
+                    <section class="r_title">
+                        <h3>Around the Block on Grey St, Deakin</h3> 
+                        <h4> 5 November 2022, 10.00am</h4>
+                    </section>
+                    <!-- <p>
+                        Join Architect David Brand and Canberra Modern in Deakin for a unique perspective on one of Canberra’s iconic neighbourhoods – recounted as a raw, new pioneering suburb, built by its unique community of diplomat, public service and academic families. 
+                        Growing up in Canberra in the 1950s & ’60s was an immersive Modernist experience for David Brand, a Melbourne based architect born and raised in Deakin. Their houses and gardens express the ideals of Modern Australian living, in a Post-War age of austerity, and optimism.
+                        Following the walk, join Canberra Modern and David Brand for an 'In Conversation' further reflecting on his childhood neighbourhood — its houses, gardens, society and attitudes, its unique Canberran demographics. 
+                        Light refreshments provided.
+                    </p> -->
                 </div>
-                
+                <div>
+                    <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/Univeristy%20Hosue%20Tunnel%201950s%20-%20source%20-%20ANU%20A.jpg/:/cr=t:33.75%25,l:7.63%25,w:84.75%25,h:32.51%25/rs=w:1200,h:600,cg:true,m">
+                    <section class="r_title">
+                        <h3>What Lies Beneath: The Tunnels of University House and Hidden ANU</h3> 
+                        <h4>11 , 17 & 18 November 2022, 7.00pm</h4>
+                    </section>
+                    <p>
+                    </p>
+                </div>
+                <div>
+                    <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/10-Apr-art-walking-tour.jpg/:/rs=w:1200,h:600,cg:true,m/cr=w:1200,h:600">
+                    <section class="r_title">
+                        <h3>Art and Architecture in the Parliamentary Zone</h3> 
+                        <h4>12 November 2022, 10.00am</h4>
+                    </section>
+                    <p>
+                    </p>
+                </div>
+                <div>
+                    <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/17-Apr-ANU-school-of-music-0001.jpg/:/cr=t:24.44%25,l:0%25,w:100%25,h:51.11%25/rs=w:600,h:300,cg:true">
+                    <section class="r_title">
+                        <h3>Art and Architecture at the ANU</h3> 
+                        <h4>19 November 2022, 10.00am</h4>
+                    </section>
+                    <p>
+                    </p>
+                </div>
+                <div>
+                    <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/RADBURNS.jpeg/:/rs=w:602,h:301,cg:true,m/cr=w:602,h:301">
+                    <section class="r_title">
+                        <h3>Curtin's Radburn Precinct - Walking Tour</h3> 
+                        <h4>24 April 2022, 10.00am</h4>
+                    </section>
+                    <p>
+                    </p>
+                </div>
+                <div>
+                    <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/blob-0003.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,h:300,cg:true">
+                    <section class="r_title">
+                        <h3>Around the Block on Grey St, Deakin: Walking Tour</h3> 
+                        <h4>22 April 2022- 10.00am</h4>
+                    </section>
+                    <p>
+                    </p>
+                </div>
+                <div>
+                    <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/blob-0001.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1000,h:500,cg:true">
+                    <section class="r_title">
+                        <h3>Around the Block on Grey St, Deakin: Recollections with David Brand</h3> 
+                        <h4>24 April 2022, 2.00pm</h4>
+                    </section>
+                    <p>
+                    </p>
+                </div>
+                <div>
+                    <img src="https://isteam.wsimg.com/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/539b690f-7a8d-4e55-8362-bea0699ab65b.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300">
+                    <section class="r_title">
+                        <h3>Manning Clark House Tours</h3> 
+                        <h4>9 April, 24 April, 30 April 2022, 12pm and 2pm</h4>
+                    </section>
+                    <p>
+                    </p>
+                </div>
             </div>
         </section>
         <section id="e_container">
@@ -144,14 +219,13 @@
             <div class="e_element">
                 <div>
                     <img src="">
-                    <h3>
-                    </h3>
-                    <span id="dots">...</span>
-                    <span id="more">
-                        <p>
-                        </p>
-                    </span>                    
-                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                    <section class="r_title">
+                        <h3></h3> 
+                        <h5></h5> 
+                        <h4></h4>
+                    </section>
+                    <p>
+                    </p>
                 </div>
                 
             </div>
@@ -161,14 +235,13 @@
             <div class="e_element">
                 <div>
                     <img src="">
-                    <h3>
-                    </h3>
-                    <span id="dots">...</span>
-                    <span id="more">
-                        <p>
-                        </p>
-                    </span>                    
-                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                    <section class="r_title">
+                        <h3></h3> 
+                        <h5></h5> 
+                        <h4></h4>
+                    </section>
+                    <p>
+                    </p>
                 </div>
                 
             </div>
@@ -178,14 +251,13 @@
             <div class="e_element">
                 <div>
                     <img src="">
-                    <h3>
-                    </h3>
-                    <span id="dots">...</span>
-                    <span id="more">
-                        <p>
-                        </p>
-                    </span>                    
-                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                    <section class="r_title">
+                        <h3></h3> 
+                        <h5></h5> 
+                        <h4></h4>
+                    </section>
+                    <p>
+                    </p>
                 </div>
                 
             </div>
@@ -195,14 +267,13 @@
             <div class="e_element">
                 <div>
                     <img src="">
-                    <h3>
-                    </h3>
-                    <span id="dots">...</span>
-                    <span id="more">
-                        <p>
-                        </p>
-                    </span>                    
-                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                    <section class="r_title">
+                        <h3></h3> 
+                        <h5></h5> 
+                        <h4></h4>
+                    </section>
+                    <p>
+                    </p>
                 </div>
                 
             </div>
@@ -212,21 +283,54 @@
             <div class="e_element">
                 <div>
                     <img src="">
-                    <h3>
-                    </h3>
-                    <span id="dots">...</span>
-                    <span id="more">
-                        <p>
-                        </p>
-                    </span>                    
-                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                    <section class="r_title">
+                        <h3></h3> 
+                        <h5></h5> 
+                        <h4></h4>
+                    </section>
+                    <p>
+                    </p>
                 </div>
                 
             </div>
         </section>
+
     </main>
     <footer>
-
+        <div class="container">
+            <div class="SIT">
+                <div class="contact-form">
+                    <h3>STAY IN TOUCH</h3>
+                    <form>
+                        <input type="email" id="email" placeholder="E-mail" required>
+                        <input type="submit" id="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="buildings.html">Top 20</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="media.html">Media</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="links">
+                <nav>
+                    <ul>
+                        <li><a href="https://www.facebook.com/canberramodern/"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/canberra_modern/"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="bottom">
+            <h1>CANBERRA MODERN</h1>
+            <p>© 2017 Canberra Modern</p>            
+        </div>
     </footer>
     <script src="script.js"></script> 
 </body>

@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -19,7 +20,7 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="buildings.html">Top 20</a></li>
+                        <li><a href="buildings.html" id="recent_page">Top 20</a></li>
                         <li><a href="events.html">Events</a></li>
                         <li><a href="media.html">Media</a></li>
                     </ul>
@@ -32,9 +33,11 @@
     </header>
 
     <main>
-        <h1 class="title">Top 20 Mid (& Late) Century<br>Modern Buildings</h1>
+        <section class="b_title">
+            <h1>Mid (& Late) Century<br>Modern Buildings</h1>
+        </section>
         <p class="intro">20 buildings might seem a lot, but in a city that grew up in the mid-century period that showcases work from some of Australia’s most renowned architects, it is almost impossible to narrow the list to just 20! While many on the list are obvious and iconic, we also wanted to include a few buildings that are lesser known or are at risk of being lost altogether or visually lost in the midst of adjacent developments or inappropriate renovation</p>
-        <section id="buildings">
+        <section class="buildings">
             <div>
                 <h3>National Library of Australia</h3>
                 <img src="https://www.canberratimes.com.au/images/transform/v1/crop/frm/tPntrWhUbGLyDWYCTv46rt/e34998d8-4bc0-46f3-8bf3-bea4b1171bcb.jpg/r0_372_3800_2517_w1200_h678_fmax.jpg">
@@ -45,7 +48,7 @@
                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/04/02/56/0b/university-house.jpg">
                 <p>Balmain Crescent, Australian National University, Acton <br>Brian Lewis, 1954</p>
             </div>
-            <div>
+            <div id="at_risk">
                 <h3>Churchill House</h3>
                 <img src="https://jehru.github.io/11056-Assessment-2/assets/images/extra1-churchill-house-by-robin%20boyd-photo-copyright-darren-bradley.jpg">
                 <p>Northbourne Ave, Braddon <br> Robin Boyd, 1971 </p>
@@ -55,7 +58,7 @@
                 <img src="https://images.squarespace-cdn.com/content/v1/5d89a8a7aaeb04772b81914f/1576817538383-24M67886YJI1QXFXSU6M/005535.JPG">
                 <p>Housing Co-operatives: Urambi Village, Crozier Cct, Kambah  Wybalena Grove, Cook <br> Michael Dysart, 1974</p>
             </div>
-            <div>
+            <div id="at_risk">
                 <h3>Callam Offices</h3>
                 <img src="https://www.canberratimes.com.au/images/transform/v1/crop/frm/fdcx/dc5syd-67hz945t5ps13gpwvhll.jpg/r0_218_4256_2611_w1200_h678_fmax.jpg">
                 <p>Callam Street, Woden <br> John Andrews, 1977-81 </p>
@@ -75,12 +78,12 @@
                 <img src="https://images.squarespace-cdn.com/content/v1/5c6c9113c2ff61350cfb2495/1567204180181-KQVUXXXGNJSSN9H9F1W9/edmund-barton-building-f1e07081-5798-4e96-879f-d81f4b8399f-resize-750.jpeg">
                 <p>Kings Avenue, Barton <br> Harry Seidler, 1973</p>
             </div>
-            <div>
+            <div id="at_risk">
                 <h3>Civic Square</h3>
                 <img src="https://www.positive-solutions.com.au/wp-content/uploads/2021/07/Marilou-@_5foot-1-1-1600x700-c-center.jpg">
                 <p>Including Legislative Assembly & Canberra Museum and Gallery London Circuit, City <br> Yuncken and Freeman, 1961</p>
             </div>
-            <div>
+            <div id="at_risk">
                 <h3>Colonial Mutual Building</h3>
                 <img src="https://live.staticflickr.com/6140/5973905118_9d8751154e_b.jpg">
                 <p>University Ave, City <br> Civil & Civic and Towell, Rippon and Associates, 1968</p>
@@ -115,12 +118,12 @@
                 <img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/7f2c782c-ba42-491a-b8d6-766bf932d6a8.jpg/:/rs=w:1280">
                 <p>Parliament Dr, Canberra<br>Mitchell,  Giurgola & Thorp, 1988 </p>
             </div>
-            <div>
+            <div id="at_risk">
                 <h3>Torrens Townhouses and Shopping Complex</h3>
                 <img src="https://live.staticflickr.com/2832/34181553172_8d75241d09_b.jpg">
                 <p>Beasley Street, Torrens <br>Dirk Bolt, 1967 </p>
             </div>
-            <div>
+            <div id="at_risk">
                 <h3>Anzac Park East and West (Portal Buildings)</h3>
                 <img src="https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/da52035f-1908-474a-a3f7-0a41e53eb244/r0_0_2000_1333_w1200_h678_fmax.jpg">
                 <p>Anzac Parade,  Reid/Campbell<br>Richard Ure, Department of Works, 1965 </p>
@@ -138,7 +141,40 @@
         </section>
     </main>
     <footer>
-
+        <div class="container">
+            <div class="SIT">
+                <div class="contact-form">
+                    <h3>STAY IN TOUCH</h3>
+                    <form>
+                        <input type="email" id="email" placeholder="E-mail" required>
+                        <input type="submit" id="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="buildings.html">Top 20</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="media.html">Media</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="links">
+                <nav>
+                    <ul>
+                        <li><a href="https://www.facebook.com/canberramodern/"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/canberra_modern/"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="bottom">
+            <h1>CANBERRA MODERN</h1>
+            <p>© 2017 Canberra Modern</p>            
+        </div>
     </footer>
 </body>
 </html>

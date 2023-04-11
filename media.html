@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -21,7 +22,7 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="buildings.html">Top 20</a></li>
                         <li><a href="events.html">Events</a></li>
-                        <li><a href="media.html">Media</a></li>
+                        <li><a href="media.html" id="recent_page">Media</a></li>
                     </ul>
                 </nav>
             </section>
@@ -31,7 +32,7 @@
         </div>
     </header>
     <main>
-        <section id="media_hero">
+        <section id="m_title">
             <h1>Media</h1>
         </section>
         <section id="video">
@@ -51,12 +52,12 @@
                     <h3>What is Modernism?</h3>
                 </section>
             </div>
-            
+            <button><a href="">view all</a></button>
         </section>
         <section id="blog">
             <h2>ARTICLES AND BLOG POSTS</h2>
             <div class="line"></div>
-            <div class="inner">
+            <div class="b_container">
                 <section>
                     <a href=""><img src="https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/Bowden1.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280"></a>
                     <h3>David Webb: Model Architecture</h3>
@@ -66,6 +67,7 @@
                     <h3>Canberra takes on California cool</h3>
                 </section>
             </div>
+            <button><a href="">view all</a></button>
         </section>
         <section id="link">
             <h2>SOME WEBSITES YOU MAY LIKE</h2>
@@ -123,7 +125,40 @@
         </section>
     </main>
     <footer>
-
+        <div class="container">
+            <div class="SIT">
+                <div class="contact-form">
+                    <h3>STAY IN TOUCH</h3>
+                    <form>
+                        <input type="email" id="email" placeholder="E-mail" required>
+                        <input type="submit" id="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="buildings.html">Top 20</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="media.html">Media</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="links">
+                <nav>
+                    <ul>
+                        <li><a href="https://www.facebook.com/canberramodern/"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/canberra_modern/"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="bottom">
+            <h1>CANBERRA MODERN</h1>
+            <p>© 2017 Canberra Modern</p>            
+        </div>
     </footer>
 </body>
 
