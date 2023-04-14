@@ -14,4 +14,4 @@ Although I have successfully built the website I envisioned in the concept devel
 
 If I could redo this project, I would invest more in the concept ideation, experiment with different compositions and think outside the box.
 
-![PrototypeImage](assets/images/Low-fi prototype.jpg)
+![PrototypeImage](assets/images/Prototype.jpg)
